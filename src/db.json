@@ -1,0 +1,27 @@
+[
+    {
+      "name": "New York",
+      "currentTemp": 22,
+      "condition": "Sunny",
+      "highTemp": 25,
+      "lowTemp": 18,
+      "forecast": [
+        { "day": "Tomorrow", "high": 23, "low": 19 },
+        { "day": "Day 2", "high": 24, "low": 20 },
+        { "day": "Day 3", "high": 22, "low": 18 }
+      ]
+    },
+    {
+      "name": "London",
+      "currentTemp": 16,
+      "condition": "Cloudy",
+      "highTemp": 18,
+      "lowTemp": 14,
+      "forecast": [
+        { "day": "Tomorrow", "high": 17, "low": 15 },
+        { "day": "Day 2", "high": 16, "low": 14 },
+        { "day": "Day 3", "high": 15, "low": 13 }
+      ]
+    }
+  ]
+  

@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #007bff;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.search-container {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.search-container input {
+  padding: 0.5rem;
+  width: 200px;
+}
+
+.search-container button {
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+main {
+  padding: 1rem;
+}
+
+.dashboard {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.city-card {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  text-align: center;
+  position: relative;
+}
+
+.city-card h3 {
+  margin: 0.5rem 0;
+}
+
+.city-card .remove-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.graph-container {
+  margin-top: 2rem;
+  text-align: center;
+}
+.city-card h4 {
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: #555;
+}
+
+.forecast-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0.5rem 0;
+}
+
+.forecast-list li {
+  font-size: 0.9rem;
+  color: #333;
+}
